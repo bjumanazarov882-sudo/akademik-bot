@@ -8,8 +8,8 @@ from telegram.ext import (
 from groq import Groq
 
 # ===== SOZLAMALAR =====
-TELEGRAM_TOKEN = os.environ.get("8944587981:AAGun24How9fVEH4fNHtl1B5F86_fJOc4Fg", "")
-GROQ_API_KEY = os.environ.get("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", "")
+TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN", "")
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
