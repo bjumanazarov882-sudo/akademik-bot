@@ -1,1 +1,1 @@
-# akademik-bot
+# Akademik Bot
